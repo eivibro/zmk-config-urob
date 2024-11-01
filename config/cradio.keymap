@@ -1,0 +1,34 @@
+#include "zmk-helpers/key-labels/34.h"
+
+#define CONFIG_WIRELESS
+
+// norwegian definitions below
+#define OE	 SEMI	   // Æ
+#define AE	 SQT	   // Ø
+#define AA	 LBKT	   // Å
+#define NO_PIPE	 GRAVE	   // |
+#define NO_AT 	 RA(N2)    // @
+#define NO_DLLR	 RA(N4)    // $
+#define NO_AMPS	 LS(N6)	   // &
+#define NO_STAR	 LS(BSLH)  // *
+#define NO_FSLH  LS(N7)    // /
+#define NO_LPAR	 LS(N8)    // (
+#define NO_RPAR	 LS(N9)    // )
+#define NO_LBKT  RA(N8)    // [
+#define NO_RBKT  RA(N9)    // ]
+#define NO_LBRC	 RA(N7)	   // {
+#define NO_RBRC	 RA(N0)	   // }
+#define NO_PLUS	 MINUS     // +
+#define NO_DASH	 FSLH      // -
+#define NO_UNDER LS(FSLH)  // _
+#define NO_APOS	 BSLH      // '
+#define NO_EQL	 LS(N0)    // =
+#define NO_QMARK LS(NO_PLUS) // ? 
+#define NO_QUOT	 LS(N2)    // "
+#define NO_TILDE RA(RBKT)  // ~ 
+#define NO_LESS  NON_US_BACKSLASH // <
+#define NO_MORE  LS(NON_US_BACKSLASH) // >
+#define NO_BSLH  0x2E      // Backslash
+#define NO_CARET LS(RBKT)  // ^
+
+#include "mybase.keymap"

@@ -1,3 +1,5 @@
+My own spin on urob's ZMK config. Text from urob below.
+
 # urob's zmk-config
 
 This is my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/)
